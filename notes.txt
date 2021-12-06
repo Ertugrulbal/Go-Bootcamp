@@ -1,0 +1,24 @@
+
+
+Command
+
+    > go mod init github.com
+
+
+Interface bir türün davranışını belirlememizi sağlar
+Interface tanımlaması sıfıri bir ya da birden fazla metod ile tanımlanabilirgithub.com
+// boş Interface{}
+
+//tek metodlu Interface
+Interface{
+    Add(num int) int
+}
+// birden fazla nesneli Interface
+Interface{
+    Len()Int
+    Swap(i, j int)
+    Less(i, j int) bool
+}
+Interface{
+    Description() string
+}
